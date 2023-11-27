@@ -8,7 +8,7 @@ plugins {
     id("maven-publish")
 }
 
-group = "com.example.mysharedlib"
+group = "com.mirzomuhsin.kmmlib"
 version = "0.1.1"
 
 val GITHUB_USER: String by project
@@ -59,10 +59,10 @@ kotlin {
 publishing {
     repositories {
         maven {
-            setUrl("https://maven.pkg.github.com/thebino/KMMLib")
+            setUrl("https://maven.pkg.github.com/Mirzomuhsin2001/MySharedLib")
             credentials {
                 username = "Mirzomuhsin2001"
-                password = "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"
+                password = "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"
             }
         }
     }
