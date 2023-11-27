@@ -62,7 +62,7 @@ publishing {
             setUrl("https://maven.pkg.github.com/Mirzomuhsin2001/MySharedLib")
             credentials {
                 username = "Mirzomuhsin2001"
-                password = "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"
+                password = "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"
             }
         }
     }
